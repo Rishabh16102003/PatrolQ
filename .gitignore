@@ -1,0 +1,86 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+
+venv/
+env/
+ENV/
+.venv/
+conda-env/
+DL_env/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# VS Code
+
+.vscode/
+
+# macOS
+
+.DS_Store
+
+
+# Streamlit
+
+.streamlit/secrets.toml
+
+# MLflow
+
+mlruns/
+mlflow.db
+
+# Logs
+
+*.log
+
+# Temporary Files
+
+temp/
+tmp/
+*.tmp
+
+# Python Build Files
+
+build/
+dist/
+*.egg-info/
+
+# Coverage Reports
+
+.coverage
+htmlcov/
+
+# Cache
+
+.cache/
+.pytest_cache/
+
+# Data Files (Optional)
+
+# Uncomment if datasets are too large for GitHub
+
+# data/Crimes_-_2001_to_Present*.csv
+
+data/raw/
+
+*.zip
+
+# Model Files (if added later)
+
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Environment Variables
+
+.env
+.env.local
